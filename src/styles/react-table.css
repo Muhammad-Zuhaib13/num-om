@@ -1,0 +1,126 @@
+.cell-center {
+  text-align: center;
+}
+.cell-center > * {
+  margin: 0 auto;
+}
+
+.cell-right {
+  text-align: right;
+}
+.cell-right > * {
+  margin: 0 0 0 auto;
+}
+.centered-header {
+  text-align: center !important;
+}
+/* users table styles - START */
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.user-name-users > div,
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.contact-no-users > div,
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.location-users > div,
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.no-of-ads-users > div,
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.active-users > div,
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.actions-user > div {
+  justify-content: center !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.user-name-users > p {
+  margin: 0 auto !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.contact-no-users > p {
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.s-no-users > div {
+  justify-content: center !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.s-no-users {
+  text-align: center !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.no-of-ads-users > p {
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.active-users > div {
+  display: grid !important;
+  justify-content: center !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.actions-user {
+  text-align: center !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.location-users,
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.location-users {
+  width: 373px !important;
+  overflow: hidden !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.location-users > p {
+  text-align: center !important;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.no-of-ads-users,
+td.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.no-of-ads-users {
+  width: 213px !important;
+}
+/* users table styles - END */
+/* Ads table styles - START */
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.s-no-ads {
+  width: 120px !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.s-no-ads {
+  width: 120px !important;
+  text-align: center !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.actions-ads > div {
+  justify-content: center !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.actions-ads {
+  text-align: center !important;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.status-ads {
+  /* width: 88px !important; */
+  /* display: grid !important; */
+  justify-content: center !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.description-ads {
+  width: 313px !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.description-ads > p {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.actions-ads {
+  /* width: 89px !important; */
+  display: grid !important;
+  justify-content: center !important;
+}
+td.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.actions-ads {
+  width: 89px !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.banner-ads > div {
+  justify-content: center;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.banner-ads > span {
+  margin: 0 auto;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.status-ads > div {
+  justify-content: center !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.status-ads {
+  display: grid !important;
+  justify-content: center !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.status-ads > div {
+  justify-content: center !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.s-no-ads > p {
+  margin: 0 auto !important;
+}
+
+/* Ads table styles - END */
